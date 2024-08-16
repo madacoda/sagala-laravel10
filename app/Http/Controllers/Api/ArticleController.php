@@ -37,6 +37,8 @@ class ArticleController extends Controller
         $input = $request->all();
         $data  = $this->articleRepository->store($input);
 
+        Cache::tags('articles')->flush();
+
         return response()->json([
             'status'  => 'success',
             'data'    => $data,
