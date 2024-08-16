@@ -60,3 +60,5 @@ This project exposes the following API endpoints:
 ### K6 Performance Benchmark
 
 Performance benchmarks using K6 are available.
+
+![K6 Performance Benchmark](https://raw.githubusercontent.com/madacoda/sagala-laravel10/main/k6result.png)
