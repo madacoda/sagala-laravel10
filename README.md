@@ -7,14 +7,6 @@ This project is a showcase for the backend take-home test, demonstrating skills 
 
 ## Installation
 
-1. Clone the repository.
-2. Run `composer install` to install the project dependencies.
-3. Configure the database connection in the `.env` file.
-4. Run `php artisan migrate` to migrate the database.
-5. Run `php artisan redis:flush` to clear Redis cache.
-6. Run `php artisan test` to execute the test suite.
-7. Run `php artisan db:seed ArticleSeeder` to input dummy data.
-
 1. Clone the Repository:
 Use Git to clone the repository:
 `git clone <repository-url>`
